@@ -1,7 +1,7 @@
 module.exports = {
-    entry: './src/graphTheory.js',
+    entry: './src/graph_theory.js',
     output: {
-        library: 'graph-theory-npm',
+        library: 'classical_graph_theory',
         libraryTarget: 'umd',
         path: './dist',
         filename: 'bundle.js'

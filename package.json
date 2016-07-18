@@ -1,5 +1,5 @@
 {
-    "name": "graph-theory-npm",
+    "name": "classical_graph_theory",
     "version": "4.0.1-alpha",
     "description": "Node.js module implementing basic graph theory algorithms",
     "main": "src/graph_theory.js",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tfpractice/graph-theory-npm.git"
+        "url": "git+https://github.com/tfpractice/classical_graph_theory.git"
     },
     "keywords": [
         "graph",
@@ -24,9 +24,9 @@
     "author": "theory f practice <jackson.brebnor@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/tfpractice/graph-theory-npm/issues"
+        "url": "https://github.com/tfpractice/classical_graph_theory/issues"
     },
-    "homepage": "https://github.com/tfpractice/graph-theory-npm#readme",
+    "homepage": "https://github.com/tfpractice/classical_graph_theory#readme",
     "devDependencies": {
         "babel-core": "^6.9.1",
         "babel-loader": "^6.2.4",

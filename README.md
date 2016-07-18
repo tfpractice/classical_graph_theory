@@ -1,10 +1,10 @@
-# graph-theory-npm (v4.0.0-alpha)
+# classical_graph_theory (v0.0.0-alpha)
 =========
 This Node.js library provides a number of classes that facilitate exploring your data as a graph.
 
 ## Installation
 
-  npm install git://github.com/tfpractice/graph-theory-npm.git --save
+  npm install git://github.com/tfpractice/classical_graph_theory.git --save
 
 ## Usage
 The three primary classes in the library are Node, Graph, and Edge, which can provide useful functionlaity when determining relationships between a multifaceted set of related objects.
@@ -15,7 +15,7 @@ Nodes are instantiated with a label attribute (for identification) and a data at
 For Example, consider tracking a dataset containing related city objects each with a population attribute. These could be modeled like so:
 
 ~~~~javascript
-var GT = require('graph-theory-npm'),
+var GT = require('classical_graph_theory'),
 mwk = new GT.node("milwaukee",{population:3.3}),
 phil = new GT.Node("philadelphia",{population:2.7}),
 nyc = new GT.Node("new york city",{population:8});
